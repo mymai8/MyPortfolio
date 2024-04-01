@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+header {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 4%;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #FAFAFA;
+}
+
+.header-logo {
+  font-size: 32px;
+}
+
+header ul li {
+  float: left;
+  padding-left: 30px;
+}
+
+header ul li a {
+  color: black;
+}
+
+main {
+  text-align: center;
+}
+
+main h1 {
+  padding: 80px 0 40px;
+}
+
+.matching-game a {
+  display: block;
+  color: orange;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.matching-game img {
+  width: 60%;
+}
+
+.matching-game h5 {
+  padding-top: 20px;
+}
+
+.codejump {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio {
+  padding: 0 40px;
+}
+
+.contents a {
+  color: orange;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.contents h5 {
+  padding-top: 20px;
+}
+
+#contact {
+  padding-bottom: 50px;
+}
+
+footer {
+  height: 50px;
+  width: 100vw;
+  padding: 2vh 0;
+  background-color: #FAFAFAFA;
+  text-align: center;
+  color: #4f4f4f;
+  font-size: 12px;
+  bottom: 0;
+  line-height: 50px;
+}
