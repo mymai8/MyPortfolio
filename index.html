@@ -1,96 +1,106 @@
 <!DOCTYPE html>
 <html lang="jp">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <title>MyPortfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
   <header>
-    <h1 class="site-title"><a href="index.html"><img src="img/logo.svg"></a></h1>
-    <nav>
+    <div class="header-logo">
+      <a href="#top">MyPortfolio</a>
+    </div>
+    <div class="header-list">
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#works">Works</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li>
-          <a href="https://www.instagram.com/" target="_blank">
-            <img class="icon" src="./img/icon-instagram.png" alt="インスタグラム">
-          </a>
-        </li>
+        <li><a href="#sites">SITES</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#profile">PROFILE</a></li>
+        <li><a href="#contact">CONTACT</a></li>
       </ul>
-    </nav>
+    </div>
   </header>
 
   <main>
-    <div id="mainvisual">
-      <img src="img/mainvisual-pc.jpg" alt="">
+    <div id="top">
+      <div id="sites">
+        <h1>SITES</h1>
+        <div class="matching-game">
+          <a href="https://matching-app-3mnu.onrender.com">MatchingGame<img src="img/スクリーンショット 2024-04-05 113109.png" alt="MatchingGame"></a>
+          <h5 class="title span">製作期間</h5>
+          <p>3か月</p>
+          <h5 class="title language">使用技術</h5>
+          <p>Ruby, Javascript, HTML, CSS</p>
+          <h5 class="title background">制作意図</h5>
+          <p>趣味でやっている「APEX」というゲームがあります。</p>
+          <p>ゲームをしている中で、そのゲームに詳しい人にコーチングをしてもらいたいと思いつつ</p>
+          <p>X（旧Twitter）などで探すのに苦労した経験がありました。</p>
+          <p>そこで、コーチと生徒がマッチングするアプリケーションがあったら便利だと思い、制作しました。</p>
+          <p>昨年3月、プログラミングスクールで制作したオリジナルアプリに、手を加えたものです。</p>
+        </div>
+        <div class="codejump">
+          <h1>OTHERS</h1>
+          <div class="contents">
+            <div class="profile">
+              <a href="https://mymai8.github.io/profile/">Profile<img src="img/スクリーンショット 2024-04-02 145406.png" alt="Profile"></a>
+              <h5 class="title span">製作期間</h5>
+              <p>15時間</p>
+              <h5 class="title language">使用技術</h5>
+              <p>HTML, CSS</p>
+              <h5 class="title background">制作意図</h5>
+              <p>作って学ぶコーディング学習サイト</p>
+              <p>「Codejump」にて学習した成果物です。</p>
+            </div>
+            <div class="portfolio">
+              <a href="https://mymai8.github.io/portfolio/">Portfolio<img src="img/スクリーンショット 2024-04-05 110325.png" alt="Portfolio"></a>
+              <h5 class="title span">製作期間</h5>
+              <p>15時間</p>
+              <h5 class="title language">使用技術</h5>
+              <p>HTML, CSS</p>
+              <h5 class="title background">制作意図</h5>
+              <p>作って学ぶコーディング学習サイト </p>
+              <p>「Codejump」にて学習した成果物です。</p>
+            </div>
+            <div class="coffee">
+              <a href="https://mymai8.github.io/coffee/">Coffee<img src="img/スクリーンショット 2024-04-05 104618.png" alt="Coffee"></a>
+              <h5 class="title span">製作期間</h5>
+              <p>20時間</p>
+              <h5 class="title language">使用言語</h5>
+              <p>HTML, CSS</p>
+              <h5 class="title background">制作意図</h5>
+              <p>作って学ぶコーディング学習サイト</p>
+              <p>「Codejump」にて学習した成果物です。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="about">
+        <h1>ABOUT</h1>
+        <p>川野 舞子（かわの まいこ）のポートフォリオサイトです。</p>
+        <p>SITESには、就労移行支援事業所に通いながら制作した成果物をまとめております。</p>
+        <p>ABOUTには、サイトの説明を記載しております。</p>
+        <p>PROFILEには、プログラミングに関しての経歴を掲載しております。</p>
+        <p>CONTACTには、私のメールアドレスを記載しております。</p>
+      </div>
+      <div id="profile">
+        <h1>PROFILE</h1>
+        <h5>名前</h5>
+        <p>川野舞子</p>
+        <h5>経歴</h5>
+        <p>2022年2月　独学でPythonを学び、オリジナルのプログラムを2つ作成</p>
+        <p>2023年1月　テックキャンプにてHTML,CSS,Ruby等を学ぶ</p>
+      </div>
+      <div id="contact">
+        <h1>CONTACT</h1>
+        <h5>メールアドレス</h5>
+        <p>maiko.kawano.15@gmail.com</p>
+        <p>ご連絡はこちらにお願い致します。</p>
+      </div>
     </div>
-    <section id="about" class="wrapper">
-      <h2>About</h2>
-      <ul>
-        <li>Xxxxx Ashley</li>
-        <br>
-        <br>
-        <li>2th Floor ABC Building 1-2-3 Nishiazabu, Minato-ku, Tokyo 106-0031 Japan</li>
-        <li>tel: 000-0000-0000</li>
-        <li>url: www.abcdefg.jp</li>
-        <li>mail: abc@abcdefg.jp</li>
-      </ul>
-      <p>プロフィール</p>
-      <p>ゴーシュは戸棚のあんばい楽長たちがセロと叫び虎ございない。それからどんどんそれどころますございという羽でした。</p>
-    </section>
-    <section id="works" class="wrapper">
-      <h2>Works</h2>
-      <ul>
-        <li><img src="img/works1.jpg"></li>
-        <li><img src="img/works2.jpg"></li>
-        <li><img src="img/works3.jpg"></li>
-        <li><img src="img/works4.jpg"></li>
-        <li><img src="img/works5.jpg"></li>
-        <li><img src="img/works6.jpg"></li>
-      </ul>
-    </section>
-    <section id="news" class="wrapper">
-      <h2>News</h2>
-      <dl>
-        <dt>2020.5.17</dt>
-        <dd>デザイン雑誌「いろはにほへと Vol.11』に掲載していただきました。</dd>
-        <dt>2020.3.13</dt>
-        <dd>1月1日から写真集「あいうえお」の販売を開始します。</dd>
-        <dt>2019.12.1</dt>
-        <dd>【イベント開催のお知らせ】親譲りの無鉄砲で小供の時から損ばかりしている。</dd>
-        <dt>2019.11.10</dt>
-        <dd>デザイン雑誌「いろはにほへと Vol.10』に掲載していただきました。</dd>
-        <dt>2019.9.18</dt>
-        <dd>【個展開催のお知らせ】親譲りの無鉄砲で小供の時から損ばかりしている。</dd>
-      </dl>
-    </section>
-    <section id="contact" class="wrapper">
-      <h2>Contact</h2>
-      <form>
-        <dl>
-          <dt>NAME</dt>
-          <dd><input type="text"></dd>
-          <dt>E-mail</dt>
-          <dd><input type="text"></dd>
-          <dt>MESSAGE</dt>
-          <dd><textarea></textarea></dd>
-        </dl>
-        <div class="button"><input type="submit" value="送信"></div>
-      </form>
-    </section>
+
   </main>
-
-  <footer>
-    <p>© 2020 My Work</p>
-  </footer>
-
+  <footer>© 2024 Maiko Kawano</footer>
 </body>
 
 </html>
